@@ -1,0 +1,20 @@
+{
+  "location": "ancient-crypt",
+  "player": {
+    "HP": 38,
+    "MaxHP": 38,
+    "Level": 2,
+    "XP": 50,
+    "ArmorClass": 14,
+    "AttackBonus": 6,
+    "Weapon": "Longsword",
+    "DamageDice": "1d8",
+    "DamageBonus": 3,
+    "Dexterity": 14,
+    "Gold": 2,
+    "Slain": {
+      "Skeleton": 1
+    },
+    "RestedThisVisit": false
+  }
+}

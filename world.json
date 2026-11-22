@@ -1,0 +1,70 @@
+{
+    "start": "grimhold-village",
+    "regions": [
+        {
+            "id": "crossroads",
+            "name": "The Crossroads",
+            "description": "A windswept crossroads where muddy trails branch into the wilds.",
+            "danger": 0,
+            "foes": [],
+            "exits": [
+                "ashen-marsh",
+                "grimhold-village"
+            ]
+        },
+        {
+            "id": "ashen-marsh",
+            "name": "Ashen Marsh",
+            "description": "Fog, iron, and things that breathe under the water.",
+            "danger": 1,
+            "foes": [
+                "goblin",
+                "skeleton",
+                "ghoul"
+            ],
+            "exits": [
+                "grimhold-village"
+            ]
+        },
+        {
+            "id": "grimhold-village",
+            "name": "Grimhold Village",
+            "description": "A quiet village surrounded by mist.",
+            "foes": [],
+            "danger": 0,
+            "exits": [
+                "dark-forest",
+                "ancient-crypt",
+                "ashen-marsh"
+            ]
+        },
+        {
+            "id": "dark-forest",
+            "name": "Dark Forest",
+            "description": "Tall twisted trees block the sunlight.",
+            "danger": 1,
+            "foes": [
+                "goblin",
+                "skeleton",
+                "ghoul"
+            ],
+            "exits": [
+                "grimhold-village"
+            ]
+        },
+        {
+            "id": "ancient-crypt",
+            "name": "Ancient Crypt",
+            "description": "Cold stone stairs descend into darkness.",
+            "danger": 2,
+            "foes": [
+                "goblin",
+                "skeleton",
+                "ghoul"
+            ],
+            "exits": [
+                "grimhold-village"
+            ]
+        }
+    ]
+}
